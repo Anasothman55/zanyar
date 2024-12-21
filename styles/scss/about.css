@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f6f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#navbar {
+  background-color: #3498db;
+  padding: 1rem;
+  text-align: center;
+}
+
+#navbar a {
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#navbar a:hover {
+  background-color: rgb(33.1380753138, 125.1882845188, 186.8619246862);
+}
+
+#about-content {
+  padding: 2rem;
+}
+
+.about-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+.about-intro {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  line-height: 1.8;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+
+.timeline {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.timeline h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.timeline ul {
+  list-style-type: none;
+}
+
+.timeline li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.timeline li:last-child {
+  border-bottom: none;
+}
+
+.timeline span {
+  font-weight: bold;
+  color: #3498db;
+}
+
+.timeline li p {
+  flex-grow: 1;
+  margin-left: 10px;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+#footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#footer p {
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=about.css.map */

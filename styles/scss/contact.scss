@@ -1,0 +1,130 @@
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+#contact-content {
+  flex: 1;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+
+  .contact-header {
+    text-align: center;
+    margin-bottom: 30px;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+  }
+
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+    .contact-form {
+      flex: 1 1 45%;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+      h2 {
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .form-group {
+        margin-bottom: 15px;
+        padding-right: 20px;
+        label {
+          display: block;
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+
+        input,
+        textarea {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 1rem;
+        }
+
+        textarea {
+          resize: none;
+        }
+      }
+
+      button {
+        display: inline-block;
+        background: #4caf50;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background 0.3s;
+
+        &:hover {
+          background: #45a049;
+        }
+      }
+    }
+
+    .contact-info {
+      flex: 1 1 45%;
+      padding: 20px;
+      border-radius: 8px;
+      background: #f1f1f1;
+      color: #333;
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      p {
+        margin-bottom: 10px;
+        font-size: 1rem;
+
+        .iconify {
+          margin-right: 10px;
+          font-size: 1.2rem;
+          vertical-align: middle;
+          color: #4caf50;
+        }
+      }
+
+      .map {
+        margin-top: 20px;
+        height: 200px;
+        background: #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        color: #555;
+        iframe {
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,99 @@
+#contact-content {
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+#contact-content .contact-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#contact-content .contact-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+#contact-content .contact-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+#contact-content .contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+#contact-content .contact-container .contact-form {
+  flex: 1 1 45%;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#contact-content .contact-container .contact-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+#contact-content .contact-container .contact-form .form-group {
+  margin-bottom: 15px;
+}
+#contact-content .contact-container .contact-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+#contact-content .contact-container .contact-form .form-group input,
+#contact-content .contact-container .contact-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+#contact-content .contact-container .contact-form .form-group textarea {
+  resize: none;
+}
+#contact-content .contact-container .contact-form button {
+  display: inline-block;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+#contact-content .contact-container .contact-form button:hover {
+  background: #45a049;
+}
+#contact-content .contact-container .contact-info {
+  flex: 1 1 45%;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f1f1f1;
+  color: #333;
+}
+#contact-content .contact-container .contact-info h2 {
+  margin-bottom: 20px;
+}
+#contact-content .contact-container .contact-info p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+#contact-content .contact-container .contact-info p .iconify {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  color: #4caf50;
+}
+#contact-content .contact-container .contact-info .map-placeholder {
+  margin-top: 20px;
+  height: 200px;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: #555;
+}
+
+/*# sourceMappingURL=contact.css.map */

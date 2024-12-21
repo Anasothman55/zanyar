@@ -1,0 +1,95 @@
+// Variables for colors and fonts
+$primary-color: #3498db;
+$secondary-color: #2c3e50;
+$accent-color: #e74c3c;
+$background-color: #f4f6f7;
+$text-color: #333;
+$font-family: 'Arial', sans-serif;
+$heading-font-family: 'Helvetica Neue', sans-serif;
+
+// Global Styles
+
+// About Section Styles
+#about-content {
+  padding: 2rem;
+}
+
+.about-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  color: $secondary-color;
+}
+
+.about-intro {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  line-height: 1.8;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+
+// Timeline Styles
+.timeline {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.timeline h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.timeline ul {
+  list-style-type: none;
+}
+
+.timeline li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.timeline li:last-child {
+  border-bottom: none;
+}
+
+.timeline span {
+  font-weight: bold;
+  color: $primary-color;
+}
+
+.timeline li p {
+  flex-grow: 1;
+  margin-left: 10px;
+  font-size: 1.1rem;
+  color: $secondary-color;
+}
+
+// Footer Styles
+#footer {
+  background-color: $secondary-color;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#footer p {
+  font-size: 1rem;
+}
